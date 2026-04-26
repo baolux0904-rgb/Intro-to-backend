@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "First backend project",
+  "homepage": "https://github.com/baolux0904-rgb/Intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/baolux0904-rgb/Intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baolux0904-rgb/Intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Duy Bao Nguyen",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
+  }
+}
